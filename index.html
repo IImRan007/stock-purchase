@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Purchase: Profit or Loss</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="heading">Profit/Loss Checker</h1>
+    </nav>
+    <div class="container">
+      <label for="initial-price">Initial Price:</label>
+      <input
+        type="number"
+        placeholder="Enter Initial Price"
+        id="initial-price"
+      />
+      <label for="quantity-of-stocks">Quantity Of Stocks:</label>
+      <input type="number" placeholder="Stocks Quantity" id="stocks-quantity" />
+      <label for="current-price">Current Price:</label>
+      <input
+        type="number"
+        placeholder="Enter Current Price"
+        id="current-price"
+      />
+    </div>
+    <button class="btn" id="check-btn">Check!!</button>
+    <div id="output"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
