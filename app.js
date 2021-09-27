@@ -20,7 +20,7 @@ function calculateProfitAndLoss(initial, quantity, current) {
       `Hey! The profit is ${profit} and the profit percentage is ${profitPercentage}%`
     );
   } else {
-    showOutput("no pain no gain");
+    showOutput("Please Input Values");
   }
 }
 
