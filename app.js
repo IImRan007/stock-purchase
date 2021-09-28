@@ -18,7 +18,7 @@ function submitHandler() {
 }
 
 function calculateProfitAndLoss(initial, quantity, current) {
-  if (initial < current) {
+  if (current > initial) {
     var profit = ((current - initial) * quantity).toFixed(2);
     var profitPercentage = ((profit / initial) * 100).toFixed(2);
 
