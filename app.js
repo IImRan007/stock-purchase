@@ -9,7 +9,7 @@ function submitHandler() {
   var qty = Number(stocksQuantity.value);
   var curr = Number(currentPrice.value);
   if (!ip || !qty || !curr) {
-    output.innerText = "Enter all the inputs";
+    output.innerText = "Please Input all the fields";
   } else if (ip < 1 || qty < 1 || curr < 1) {
     output.innerText = "Enter the positive value greater than zero";
   } else {
